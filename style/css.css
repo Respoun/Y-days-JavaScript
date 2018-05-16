@@ -1,0 +1,220 @@
+/**********CSS PROJET YDAYS**********/
+
+
+body{
+    background: white;
+}
+
+/* TITRE */
+h1{
+    color: black;
+    text-align: center;
+}
+
+/* FIN TITRE */
+
+/*****DEBUT MAIN*****/
+main{
+    position: absolute;
+    width: 850px;
+    height: 700px;
+    color: white;
+    background: url(../img/img-1.png) center;
+    border-radius: 5px;
+    margin-left: 510px;
+
+}
+
+main textarea{
+    width: 700px;
+    height: 500px;
+    margin: 50px 50px 50px 50px;
+    border-radius: 5px;
+}
+
+#effacer{
+    display: block;
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    margin: 0px 50px 50px 600px;
+}
+
+/*****FIN MAIN*****/
+
+/**********DEBUT ASIDE**********/
+aside{
+    position: absolute;
+    width: 500px;
+    height: 345px;
+    margin-top: 355px;
+    background: url(../img/img-2.svg) center;
+    border-radius: 5px;
+}
+
+aside div{
+    width: 500px;
+    height: 300px;
+    margin-left: 50px;
+    margin-top: 22.5px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+aside div h1{
+    text-transform: uppercase;
+    font-size: 1.25em;
+    float: center;
+    color: white;
+}
+
+aside div a{
+    position: absolute;
+}
+
+/*****RAPPELS*****/
+#egdif{
+    position: absolute;
+    font-size: 20px;
+    margin: 180px 0 0 90px;
+}
+
+#supinf{
+    position: absolute;
+    font-size: 20px;
+    margin: 180px 0 0 250px;
+}
+
+#egdif2{
+    position: absolute;
+    font-size: 20px;
+    margin: 127px 0 0 90px;
+}
+
+#supinf2{
+    position: absolute;
+    font-size: 20px;
+    margin: 127px 0 0 250px;
+}
+
+/*****FIN RAPPELS*****/
+aside div input{
+    position: absolute;
+    margin: 0 0 0 125px;
+    border-radius: 5px;
+    border: 1.5px solid #000;
+}
+/**********FIN PARTIE ASIDE**********/
+
+/*****DEBUT NAV*****/
+nav{
+    position: absolute;
+    width: 500px;
+    height: 345px;
+    background: url(../img/img-2.svg) center;
+    border-radius: 5px;
+
+}
+
+/* BOUTON WHILE*/
+#boucle{
+    width: 200px;
+    height: 60px;
+    border-radius: 5px;
+}
+
+/* BOUTON IF */
+#if{
+    width: 200px;
+    height: 60px;
+    border-radius: 5px;
+}
+
+/* BOUTON VARIABLE */
+#var{
+    width: 200px;
+    height: 60px;
+    border-radius: 5px;
+}
+
+/* BOUTON FOR */
+#fa{
+    width: 200px;
+    height: 60px;
+    border-radius: 5px;
+}
+
+/* BOUTON FERMETURE */
+#fer{
+    width: 200px;
+    height: 60px;
+    border-radius: 5px;
+}
+
+/* BOUTON SAUT DE LIGNE */
+#entrer{
+    width: 200px;
+    height: 60px;
+    border-radius: 5px;
+}
+
+/* BOUTON OK */
+#ok_alea,#ok_var,#ok_while,#ok_if,#ok_for,#ok_close{
+    display: block;
+    float: right;
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    color: #000;
+    border-radius: 100%;
+    margin-right: 100px;
+}
+
+/* POSITIONNEMENT BOUTON */
+
+/* BOUTON WHILE */
+#bboucle{ 
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 25px;
+}
+
+/* BOUTON IF */
+#bif{ 
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 25px;
+}
+
+/* BOUTON VARIABLE */
+#bvar{ 
+    position: absolute;
+    margin-top: 240px;
+    margin-left: 25px;
+}
+
+/* BOUTON FOR */
+#bfa{ 
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 275px;
+}
+
+/* BOUTON FERMETURE BLOCK */
+#bfer{
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 275px;
+}
+
+/* BOUTON SAUT DE LIGNE */
+#bentrer{
+    position: absolute;
+    margin-top: 240px;
+    margin-left: 275px;
+}
+
+/* FIN POSITIONNEMENT BOUTON*/
+
+/*****FIN NAV*****/

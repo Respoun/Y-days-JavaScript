@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Projet Ydays</title>
+        <link rel="stylesheet" type="text/css" href="style/css.css">
+    </head>
+
+    <body>
+
+        <!--    Titre    -->
+
+        <h1>Projet Ydays</h1>
+
+        <!--    Fin titre    -->
+
+        <!--   BOUTONS   -->
+        <nav>
+            <div id="bboucle">
+                <button type="button" id="boucle" onclick="afficher_div('cond_bcl')">Boucle While</button>
+            </div >
+            <div id="bif">
+                <button type="button" id="if" onclick="afficher_div('cond_if')">If/Elif/Else</button>
+            </div >
+            <div id="bvar">
+                <button type="button" id="var" onclick="afficher_div('cond_var')">Variable</button>
+            </div>
+            <div id="bfa">
+                <button type="button" id="fa" onclick="afficher_div('cond_alea')">Boucle For</button>
+            </div>
+            <div id="bfer">
+                <button type="button" id="fer" onclick="afficher_div('cond_close')">Fermeture block </button>
+            </div>
+            <div id="bentrer">
+                <button type="button" id="entrer">Saut de ligne</button>
+            </div>
+        </nav>
+        <!--   BOUTONS   -->
+
+        <!--   CONDITIONS   -->
+        <aside>
+            <!--   WHILE   -->
+            <div id="cond_bcl" style="display:none" name="conditions">
+                <h1>Boucle</h1>
+                <a>While</a>
+                <input type="text" name="text" id="ipt_bcl">
+                <!--   BOUTON OK WHILE   -->
+                <button type="button" id="ok_while">OK</button>
+                <!--   FIN BOUTON OK WHILE   -->
+                <p id='egdif'>Egal: == <br>Différent: !=</p>
+                <p id="supinf">Supérieur: &rsaquo; <br>Inférieur: &lsaquo; </p>
+            </div>
+            <!--   Fin WHILE   -->
+
+            <!--   IF   -->
+            <div id="cond_if" style="display:none" name="conditions">
+                <h1>If</h1>
+                <a>If</a>
+                <input type="text" name="text" id="ipt_if">
+                <br>
+                <br>
+                <a>Elif</a>
+                <input type="text" name="text" id="ipt_elif">
+                <br> 
+                <br> 
+                <a>Else</a>
+                <input type="text" name="text" id="ipt_else">
+                <!--   BOUTON OK IF   -->
+                <button type="button" id="ok_if">OK</button>
+                <!--   FIN BOUTON OK IF  -->
+                <p id='egdif2'>Egal: == <br>Différent: !=</p>
+                <p id="supinf2">Supérieur: &rsaquo; <br>Inférieur: &lsaquo;</p>
+            </div>
+            <!--   Fin IF   -->
+
+            <!--   VARIABLE   -->
+            <div id="cond_var" style="display:none" name="conditions">
+                <h1>Variable</h1>
+                <a>Nom de variable</a>
+                <input type="text" name="text" id="ipt_var">
+                <br>
+                <br>
+                <a>Entrez valeur</a>
+                <input type="text" name="text" id="ipt_nbr">
+                <!--   BOUTON OK VAR   -->
+                <button type="button" id="ok_var">OK</button>
+                <!--   FIN BOUTON OK VAR   -->
+                <p id='egdif'>Egal: == <br>Différent: !=</p>
+                <p id="supinf">Supérieur: &rsaquo; <br>Inférieur: &lsaquo;</p>
+            </div>
+            <!--   Fin VARIABLE   -->
+
+            <!--   FOR   -->
+            <div id="cond_alea" style="display:none" name="conditions">
+                <h1>For</h1>
+                <a>for</a>
+                <input type="text" name="text" id="ipt_for">
+                <!--   Bouton OK FOR   -->
+                <button type="button" id="ok_for">OK</button>
+                <!--   FIN BOUTON OK FOR   -->
+                <p id='egdif'>Egal: == <br>Différent: !=</p>
+                <p id="supinf">Supérieur: &rsaquo; <br>Inférieur: &lsaquo;</p>
+            </div>
+            <!--   FIN FOR   -->
+
+            <!--   FERMETURE   -->
+            <div id="cond_close" style="display:none" name="conditions">
+                <h1>fermeture</h1>
+                <a>cliquer sur ok</a>
+                <!--   BOUTON OK FERMETURE  -->
+                <button type="button" id="ok_close">OK</button>
+                <!--  FIN BOUTON OK FERMETURE  -->
+            </div>
+            <!--      FIN FONCTION FERMETURE      -->
+        </aside>
+        <!--   FIN CONDITIONS   -->
+
+        <!--   PARTIE ECRAN CODE  -->
+        <main>
+            <textarea id="code"></textarea>
+            <button type="button" id="effacer">Effacer</button>
+        </main>
+        <!--   FIN PARTIE CODE   -->
+
+    </body>
+
+    <!--  SCRIPT  -->
+    <script type="text/javascript" src="js/script.js"></script>
+    <!--  FIN SCRIPT  -->
+
+</html>
